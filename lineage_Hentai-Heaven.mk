@@ -20,6 +20,8 @@ PRODUCT_NAME := lineage_Hentai-Heaven
 PRODUCT_MODEL := Tecno Spark 9 Pro
 PRODUCT_MANUFACTURER := Tecno Mobility Limited
 
+WITH_GMS := true
+TARGET_CORE_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
 TARGET_VENDOR := TECNO
