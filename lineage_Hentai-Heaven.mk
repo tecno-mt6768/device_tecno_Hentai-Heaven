@@ -20,8 +20,6 @@ PRODUCT_NAME := lineage_Hentai-Heaven
 PRODUCT_MODEL := Tecno Spark 9 Pro
 PRODUCT_MANUFACTURER := Tecno Mobility Limited
 
-WITH_GMS := true
-TARGET_CORE_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
 TARGET_VENDOR := TECNO
@@ -29,7 +27,22 @@ TARGET_VENDOR_PRODUCT_NAME := Hentai-Heaven
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=KH7n-OP \
+    RISING_CHIPSET="Helio G85" \
     PRIVATE_BUILD_DESC="sys_tssi_64_tecno-user 12 SP1A.210812.016 585038 release-keys"
 
 BUILD_FINGERPRINT := TECNO/KH7n-OP/TECNO-KH7n:12/SP1A.210812.016/240416V962:user/release-keys
 
+# Rising Stuff
+RISING_MAINTAINER=isus203
+WITH_GMS := true
+TARGET_CORE_GMS := true
+PRODUCT_PACKAGES += \
+   MarkupGoogle \
+   LatinIMEGooglePrebuilt \
+   Velvet \
+   PrebuiltDeskClockGoogle
+
+PRODUCT_NO_CAMERA := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_GOOGLE_TELEPHONY := true
