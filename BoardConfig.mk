@@ -10,10 +10,10 @@ DEVICE_PATH := device/TECNO/Hentai-Heaven
 AB_OTA_UPDATER := true
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := Hentai-Heaven,TECNO-KH7n,KH7n,kh7n
+TARGET_OTA_ASSERT_DEVICE := Hentai_Heaven,TECNO-KH7n,KH7n,kh7n
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Hentai-Heaven
+TARGET_BOOTLOADER_BOARD_NAME := Hentai_Heaven
 TARGET_NO_BOOTLOADER := true
 
 # Broken Rules
