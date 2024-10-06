@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Hentai_Heaven.mk
+    $(LOCAL_DIR)/lineage_Hentai-Heaven.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Hentai_Heaven-user \
-    lineage_Hentai_Heaven-userdebug \
-    lineage_Hentai_Heaven-eng
+    lineage_Hentai-Heaven-user \
+    lineage_Hentai-Heaven-userdebug \
+    lineage_Hentai-Heaven-eng
