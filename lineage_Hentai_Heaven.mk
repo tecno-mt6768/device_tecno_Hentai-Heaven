@@ -15,8 +15,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/TECNO/Hentai-Heaven/device.mk)
 
 PRODUCT_BRAND := TECNO
-PRODUCT_DEVICE := Hentai-Heaven
-PRODUCT_NAME := lineage_Hentai-Heaven
+PRODUCT_DEVICE := Hentai_Heaven
+PRODUCT_NAME := lineage_Hentai_Heaven
 PRODUCT_MODEL := Tecno Spark 9 Pro
 PRODUCT_MANUFACTURER := Tecno Mobility Limited
 
@@ -24,7 +24,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
 TARGET_VENDOR := TECNO
 TARGET_VENDOR_PRODUCT_NAME := Hentai-Heaven
-TARGET_RELEASE := Hentai-Heaven
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=KH7n-OP \
