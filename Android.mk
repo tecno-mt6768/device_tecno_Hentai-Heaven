@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Hentai_Heaven)
+ifeq ($(TARGET_DEVICE),Hentai-Heaven)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
