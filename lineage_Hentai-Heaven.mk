@@ -14,6 +14,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from Hentai-Heaven device
 $(call inherit-product, device/TECNO/Hentai-Heaven/device.mk)
 
+TARGET_VENDOR := TECNO
 PRODUCT_BRAND := TECNO
 PRODUCT_DEVICE := Hentai-Heaven
 PRODUCT_NAME := lineage_Hentai-Heaven
@@ -25,9 +26,6 @@ WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := true
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
-
-TARGET_VENDOR := TECNO
-TARGET_VENDOR_PRODUCT_NAME := Hentai-Heaven
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=KH7n-OP \
