@@ -14,6 +14,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from Hentai-Heaven device
 $(call inherit-product, device/TECNO/Hentai-Heaven/device.mk)
 
+TARGET_VENDOR := TECNO
 PRODUCT_BRAND := TECNO
 PRODUCT_DEVICE := Hentai-Heaven
 PRODUCT_NAME := lineage_Hentai-Heaven
@@ -26,9 +27,6 @@ TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := true
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
-TARGET_VENDOR := TECNO
-TARGET_VENDOR_PRODUCT_NAME := Hentai-Heaven
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=KH7n-OP \
     RISING_CHIPSET="Helio G85" \
@@ -38,7 +36,7 @@ BUILD_FINGERPRINT := TECNO/KH7n-OP/TECNO-KH7n:12/SP1A.210812.016/240416V962:user
 
 # Rising Stuff
 RISING_MAINTAINER=isus203
-RISING_PACKAGE_TYPE := GAPPS
+RISING_PACKAGE_TYPE := GAPPS_AOSP
 TARGET_ENABLE_BLUR := true
 PRODUCT_NO_CAMERA := false
 TARGET_BOOT_ANIMATION_RES := 1080
